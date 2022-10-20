@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remotes -->
+  <remote name="hzm-github"
+          fetch="https://github.com/hzmOSS"
+          revision="thirteen" />
+
+  <remote name="hzm-gitlab"
+          fetch="https://gitlab.com/hzmOSS"
+          revision="thirteen" />
+
+  <remote name="kenny3fcb"
+          fetch="https://github.com/subhajeetmuhuri"
+          revision="lineage-20" />
+
+  <!-- Device Sources -->
+  <project name="device_xiaomi_surya" path="device/xiaomi/surya" remote="hzm-github" />
+  <project name="vendor_xiaomi_surya" path="vendor/xiaomi/surya" remote="hzm-github" />
+  <project name="hardware_xiaomi" path="hardware/xiaomi" remote="hzm-github" />
+  <project name="firmware_xiaomi_surya" path="firmware/xiaomi/surya" remote="hzm-gitlab" />
+  <project name="android_kernel_xiaomi_surya" path="kernel/xiaomi/surya" remote="kenny3fcb" />
+</manifest>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remotes -->
+  <remote name="hzm-github"
+          fetch="https://github.com/hzmOSS"
+          revision="thirteen" />
+
+  <remote name="hzm-gitlab"
+          fetch="https://gitlab.com/hzmOSS"
+          revision="thirteen" />
+
+  <remote name="crdroid"
+          fetch="https://github.com/crdroidandroid"
+          revision="13.0" />
+
+  <!-- Device Sources -->
+  <project name="device_oneplus_lemonade" path="device/oneplus/lemonade" remote="hzm-github" />
+  <project name="device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" remote="hzm-github" />
+  <project name="vendor_oneplus_lemonade" path="vendor/oneplus/lemonade" remote="hzm-gitlab" />
+  <project name="vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" remote="hzm-gitlab" />
+  <project name="hardware_oplus" path="hardware/oplus" remote="hzm-github" />
+  <project name="vendor_oneplus-firmware" path="vendor/oneplus-firmware" remote="hzm-gitlab" />
+  <project name="vendor_oneplus_camera" path="vendor/oneplus/camera" remote="hzm-gitlab" />
+  <project name="android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="crdroid" />
+</manifest>
